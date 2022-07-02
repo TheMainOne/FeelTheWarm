@@ -1,7 +1,7 @@
 import { GlobalStyle } from "./GlobalStyles";
 import { SiteHeader } from "./Header/Header";
 import { AboutSection } from "./About/About";
-// import { PriceList } from "./PriceList/PriceList";
+import { PriceList } from "./PriceList/PriceList";
 import { Features } from "./Features/Features";
 import { GoodsSection } from "./Goods/Goods";
 import { Footer } from "./Footer/Footer";
@@ -12,7 +12,7 @@ export const App = () => {
       <GlobalStyle />
       <SiteHeader />
       <AboutSection />
-      {/* <PriceList /> */}
+      <PriceList />
       <Features />
       <GoodsSection />
       <Footer />

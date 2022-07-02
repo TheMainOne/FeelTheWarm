@@ -10,8 +10,8 @@ import {
   AboutSectionImageList,
   AboutSectionWrapper,
 } from "./About.styled";
-import img1 from "../../images/about_us/img1.jpg";
-import img2 from "../../images/about_us/img2.jpg";
+import img1 from "../../images/about_us/img1.JPG";
+import img2 from "../../images/about_us/img2.JPG";
 
 export const AboutSection = () => {
   return (
@@ -20,14 +20,14 @@ export const AboutSection = () => {
         <AboutSectionWrapper>
           <AboutSectionImageList>
             <AboutSectionImageItem>
-              <img src={img1} alt="Barber" />
+              <img src={img1} alt="cute_image" />
             </AboutSectionImageItem>
             <AboutSectionImageItem>
-              <img src={img2} alt="Barber" />
+              <img src={img2} alt="cute_image" />
             </AboutSectionImageItem>
           </AboutSectionImageList>
           <div>
-            <AboutSectionTitle>Про нас</AboutSectionTitle>
+            <AboutSectionTitle>Хто ми</AboutSectionTitle>
             <AboutSectionText>Найкращі військові аксесуари</AboutSectionText>
             <AboutSectionSecondText>
               Якщо ви бажаєтє купити військові товари належної якості - тоді вам

@@ -111,7 +111,7 @@ export const AboutSectionImageList = styled.ul`
 
 export const AboutSectionImageItem = styled.li`
   width: 330px;
-  height: 235px;
+  height: 470px;
 
   &:not(:last-of-type) {
     margin-bottom: 30px;

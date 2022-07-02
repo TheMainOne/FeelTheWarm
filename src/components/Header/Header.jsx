@@ -47,7 +47,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Про нас
+                    Хто ми
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -59,7 +59,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Товари
+                    Чим займаємося
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -71,7 +71,7 @@ export const SiteHeader = () => {
                     offset={-30}
                     duration={500}
                   >
-                    Контакты
+                    Як нас знайти
                   </Link>
                 </NavigationLargeListItem>
               </NavigationLargeList>
@@ -80,18 +80,18 @@ export const SiteHeader = () => {
               <NavigationContactsButton href="https://t.me/LendLease_Ukraine">
                 Зв'язатися з нами
               </NavigationContactsButton>
-              <NavigationContactsLink href="tel:+380963441810">
-                +38 096 344 18 10
+              <NavigationContactsLink href="tel:+380970031414">
+                +38 097 003 14 14
               </NavigationContactsLink>
             </NavigationContactsWrapper>
           </NavigationWrapper>
           <NavigationTitleInformation>
-            <HeaderTitle>МАГАЗИН ДЛЯ СВОЇХ</HeaderTitle>
-            <CompanyName>Ленд-ліз</CompanyName>
+            <HeaderTitle>Благодійний фонд</HeaderTitle>
+            <CompanyName>"Відчуй тепло"</CompanyName>
             <HeaderText>
-              Ми допомогаємо нашим воїнам
-              <br /> в підборі необхідного обладнання. <br />
-              Швидко та якісно.
+              Об'єднання небайдужих людей,
+              <br /> які поєднали свої зусилля <br />
+              задля допомоги Україні
             </HeaderText>
           </NavigationTitleInformation>
           <ModalWindow open={open} handleClose={handleClose} />
