@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import img from "../../images/hero/img.jpg";
+import img from "../../images/hero/img1.jpg";
 
 export const Header = styled.header`
   height: 580px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-image: linear-gradient(
-      rgba(208, 164, 137, 0.95),
-      rgba(208, 164, 137, 0.95)
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
     ),
     url(${img});
   background-size: cover;
@@ -52,7 +52,7 @@ export const NavigationLargeListItem = styled.li`
   font-size: 12px;
   line-height: 1.33px;
   letter-spacing: 0.1em;
-  color: #303030;
+  color: #ffffff;
   cursor: pointer;
 
   @media screen and (min-width: 1024px) {
@@ -61,7 +61,7 @@ export const NavigationLargeListItem = styled.li`
 
   &:hover,
   :focus {
-    color: #ffffff;
+    color: rgba(208, 164, 137, 0.95);
   }
 
   &:not(:last-of-type) {
@@ -86,13 +86,13 @@ export const NavigationContactsButton = styled.a`
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  border: 1px solid #303030;
+  border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 25px;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.09em;
-  color: #303030;
+  color: #ffffff;
   cursor: pointer;
 
   @media screen and (min-width: 1024px) {
@@ -105,8 +105,8 @@ export const NavigationContactsButton = styled.a`
 
   &:hover,
   :focus {
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: rgba(208, 164, 137, 0.95);
+    border: 1px solid rgba(208, 164, 137, 0.95);
   }
 `;
 
@@ -114,7 +114,7 @@ export const NavigationContactsLink = styled.a`
   font-size: 12px;
   line-height: 1.33px;
   letter-spacing: 0.1em;
-  color: #303030;
+  color: #ffffff;
 
   @media screen and (min-width: 1024px) {
     font-size: 14px;
@@ -122,7 +122,7 @@ export const NavigationContactsLink = styled.a`
 
   &:hover,
   :focus {
-    color: #ffffff;
+    color: rgba(208, 164, 137, 0.95);
   }
 `;
 
@@ -146,7 +146,7 @@ export const HeaderTitle = styled.h1`
   font-weight: 600;
   line-height: 1.36;
   letter-spacing: 0.1em;
-  color: #303030;
+  color: #ffffff;
 
   @media screen and (min-width: 1024px) {
     font-size: 14px;
@@ -168,7 +168,7 @@ export const CompanyName = styled.p`
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.05em;
-  color: #303030;
+  color: #ffffff;
 
   @media screen and (min-width: 1024px) {
     font-size: 72px;
@@ -181,7 +181,7 @@ export const HeaderText = styled.p`
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.02em;
-  color: #303030;
+  color: #ffffff;
 
   @media screen and (min-width: 1024px) {
     font-size: 18px;

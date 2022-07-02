@@ -10,8 +10,8 @@ import {
   AboutSectionImageList,
   AboutSectionWrapper,
 } from "./About.styled";
-// import img1 from "../../images/about_us/img1.JPG";
-// import img2 from "../../images/about_us/img2.JPG";
+import img1 from "../../images/about_us/img.jpg";
+import img2 from "../../images/about_us/img1.jpg";
 
 export const AboutSection = () => {
   return (
@@ -20,15 +20,17 @@ export const AboutSection = () => {
         <AboutSectionWrapper>
           <AboutSectionImageList>
             <AboutSectionImageItem>
-              {/* <img src={img1} alt="cute_image" /> */}
+              <img src={img1} alt="cute_image" />
             </AboutSectionImageItem>
             <AboutSectionImageItem>
-              {/* <img src={img2} alt="cute_image" /> */}
+              <img src={img2} alt="cute_image" />
             </AboutSectionImageItem>
           </AboutSectionImageList>
           <div>
             <AboutSectionTitle>Хто ми</AboutSectionTitle>
-            <AboutSectionText>Найкращі військові аксесуари</AboutSectionText>
+            <AboutSectionText>
+              Найкращі друзі ЗСУ та інших військових формувань
+            </AboutSectionText>
             <AboutSectionSecondText>
               Якщо ви бажаєтє купити військові товари належної якості - тоді вам
               точно до нас.

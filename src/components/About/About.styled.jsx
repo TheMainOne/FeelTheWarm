@@ -85,7 +85,7 @@ export const AboutSectionButton = styled.a`
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-  border: 1px solid #ff6c00;
+  border: 1px solid rgba(208, 164, 137, 0.95);
   background-color: transparent;
   border-radius: 25px;
   font-size: 12px;
@@ -97,7 +97,7 @@ export const AboutSectionButton = styled.a`
   &:hover,
   :focus {
     color: #fff;
-    background-color: #ff6c00;
+    background-color: rgba(208, 164, 137, 0.95);
   }
 `;
 
@@ -111,7 +111,7 @@ export const AboutSectionImageList = styled.ul`
 
 export const AboutSectionImageItem = styled.li`
   width: 330px;
-  height: 470px;
+  height: 235px;
 
   &:not(:last-of-type) {
     margin-bottom: 30px;
