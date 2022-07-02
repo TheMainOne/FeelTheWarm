@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/FeelTheWarm/static/css/main.42bf326e.css",
-    "main.js": "/FeelTheWarm/static/js/main.91a80e83.js",
-    "static/media/img1.jpg": "/FeelTheWarm/static/media/img1.10e25217796a79d63f3a.jpg",
+    "main.js": "/FeelTheWarm/static/js/main.8ad69e88.js",
+    "static/media/img1.jpg": "/FeelTheWarm/static/media/img1.09d7ae196250c55ecaac.jpg",
     "static/media/footer.jpg": "/FeelTheWarm/static/media/footer.d294d408775e3b195853.jpg",
     "static/media/image4.jpg": "/FeelTheWarm/static/media/image4.dca7725d17093c896a09.jpg",
     "static/media/img_2.jpg": "/FeelTheWarm/static/media/img_2.44591ed007bdcfae94f0.jpg",
     "static/media/image2.jpg": "/FeelTheWarm/static/media/image2.2ef76811fe794540e2d8.jpg",
     "static/media/image1.jpg": "/FeelTheWarm/static/media/image1.a5cf24989fafb5f1c802.jpg",
-    "static/media/img.jpg": "/FeelTheWarm/static/media/img.b3c839d8d257f7e792e1.jpg",
     "static/media/image3.jpg": "/FeelTheWarm/static/media/image3.e1bde3ea90036e244c13.jpg",
     "static/media/img_1.jpg": "/FeelTheWarm/static/media/img_1.9b78cf3592333c9e0620.jpg",
     "static/media/image2.webp": "/FeelTheWarm/static/media/image2.961d10c6938f05ab90b4.webp",
@@ -21,10 +20,10 @@
     "static/media/image1small.webp": "/FeelTheWarm/static/media/image1small.9c547dbe4a1a336c4bde.webp",
     "index.html": "/FeelTheWarm/index.html",
     "main.42bf326e.css.map": "/FeelTheWarm/static/css/main.42bf326e.css.map",
-    "main.91a80e83.js.map": "/FeelTheWarm/static/js/main.91a80e83.js.map"
+    "main.8ad69e88.js.map": "/FeelTheWarm/static/js/main.8ad69e88.js.map"
   },
   "entrypoints": [
     "static/css/main.42bf326e.css",
-    "static/js/main.91a80e83.js"
+    "static/js/main.8ad69e88.js"
   ]
 }
