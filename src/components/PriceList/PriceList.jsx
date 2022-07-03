@@ -14,7 +14,7 @@ export const PriceList = () => {
   return (
     <PriceListSection>
       <Container>
-        <PriceListText>Підбери найкраще спорядження</PriceListText>
+        <PriceListText>Співпраця з державними органами</PriceListText>
         <PriceListTitle>Послуги та ціни</PriceListTitle>
         <PriceContainer>
           <ul>

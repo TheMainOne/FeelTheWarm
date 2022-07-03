@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import img from "../../images/price/img1.jpg";
+import img from "../../images/hero/img1.jpg";
 
 export const PriceListSection = styled.section`
   padding-top: 84px;
   padding-bottom: 84px;
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.5)
     ),
     url(${img});
   background-size: cover;
@@ -32,7 +32,7 @@ export const PriceListText = styled.p`
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.6);
+  color: #ffffff;
 
   &:before {
     content: "";
