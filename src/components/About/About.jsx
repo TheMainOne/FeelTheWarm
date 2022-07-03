@@ -10,8 +10,8 @@ import {
   AboutSectionImageList,
   AboutSectionWrapper,
 } from "./About.styled";
-import img1 from "../../images/about_us/img.jpg";
-import img2 from "../../images/about_us/img1.jpg";
+import img1 from "../../images/about_us/img1.jpg";
+import img2 from "../../images/about_us/img.jpg";
 
 export const AboutSection = () => {
   return (
@@ -29,17 +29,19 @@ export const AboutSection = () => {
           <div>
             <AboutSectionTitle>Хто ми</AboutSectionTitle>
             <AboutSectionText>
-              Найкращі друзі ЗСУ та інших військових формувань
+              Фонд, що допомагає тим, хто цього потребує
             </AboutSectionText>
             <AboutSectionSecondText>
               Якщо ви бажаєтє купити військові товари належної якості - тоді вам
               точно до нас.
             </AboutSectionSecondText>
             <AboutSectionThirdText>
-              Ми команда, яка не бажає йти на копроміси у підборі військового
-              спорядження та завжди шукає найкращі варіанти з усіх можливих. Ми
-              "на одній хвилі"" з нашими клієнтами. Тому, ми завжди готові
-              удосконалити спорядження кожного, хто до нас завітає!
+              У тісній співпраці з державними органами та органами місцевого
+              самоврядування, «Благодійний фонд «Відчуй тепло» допомагає
+              цивільному населенню, Збройним силам України та силам
+              територіальної оборони громад у забезпеченні першочергових
+              соціальних, медичних та інших нагальних потреб в умовах воєнного
+              стану.
             </AboutSectionThirdText>
             <AboutSectionButton href="https://t.me/LendLease_Ukraine">
               Зв'язатися з нами
