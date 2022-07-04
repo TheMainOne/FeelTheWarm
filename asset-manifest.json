@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FeelTheWarm/static/css/main.42bf326e.css",
-    "main.js": "/FeelTheWarm/static/js/main.71f1f74b.js",
+    "main.js": "/FeelTheWarm/static/js/main.5a63d103.js",
     "static/media/img1.jpg": "/FeelTheWarm/static/media/img1.a4d9371e9201eb449e8d.jpg",
     "static/media/footer.jpg": "/FeelTheWarm/static/media/footer.d294d408775e3b195853.jpg",
     "static/media/img2.jpg": "/FeelTheWarm/static/media/img2.418dcbd87143af969c7f.jpg",
@@ -22,10 +22,10 @@
     "static/media/image1small.webp": "/FeelTheWarm/static/media/image1small.9c547dbe4a1a336c4bde.webp",
     "index.html": "/FeelTheWarm/index.html",
     "main.42bf326e.css.map": "/FeelTheWarm/static/css/main.42bf326e.css.map",
-    "main.71f1f74b.js.map": "/FeelTheWarm/static/js/main.71f1f74b.js.map"
+    "main.5a63d103.js.map": "/FeelTheWarm/static/js/main.5a63d103.js.map"
   },
   "entrypoints": [
     "static/css/main.42bf326e.css",
-    "static/js/main.71f1f74b.js"
+    "static/js/main.5a63d103.js"
   ]
 }
