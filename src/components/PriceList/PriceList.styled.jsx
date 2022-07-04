@@ -68,7 +68,7 @@ export const PriceItem = styled.li`
   }
 `;
 
-export const PriceItemText = styled.p`
+export const PriceItemText = styled.a`
   font-size: 14px;
   line-height: 2.14;
   letter-spacing: 0.02em;
@@ -92,7 +92,7 @@ export const PriceListButton = styled.a`
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
-  border: 1px solid #ff6c00;
+  border: 1px solid rgba(208, 164, 137, 0.95);
   background-color: transparent;
   border-radius: 25px;
   font-size: 12px;
@@ -105,6 +105,6 @@ export const PriceListButton = styled.a`
   &:hover,
   :focus {
     color: #fff;
-    background-color: #ff6c00;
+    background-color: rgba(208, 164, 137, 0.95);
   }
 `;

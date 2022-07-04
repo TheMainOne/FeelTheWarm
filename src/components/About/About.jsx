@@ -10,7 +10,7 @@ import {
   AboutSectionImageList,
   AboutSectionWrapper,
 } from "./About.styled";
-import img1 from "../../images/about_us/img8.jpg";
+import img1 from "../../images/about_us/img7.jpg";
 // import img2 from "../../images/about_us/img.jpg";
 
 export const AboutSection = () => {

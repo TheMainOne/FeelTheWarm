@@ -2,7 +2,7 @@ import { Container } from "components/GlobalStyles";
 import {
   PriceListSection,
   PriceListText,
-  PriceListTitle,
+  // PriceListTitle,
   PriceContainer,
   PriceItem,
   PriceItemUnderLine,
@@ -14,31 +14,71 @@ export const PriceList = () => {
   return (
     <PriceListSection>
       <Container>
-        <PriceListText>Співпраця з державними органами</PriceListText>
-        <PriceListTitle>Послуги та ціни</PriceListTitle>
+        <PriceListText>Співпраця з органами державної влади</PriceListText>
+        {/* <PriceListTitle>
+          Фонд у своїй діяльності співпрацює з різними державними інстанціями
+        </PriceListTitle> */}
         <PriceContainer>
           <ul>
             <PriceItem>
-              <PriceItemText>Консультація спеціаліста</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/1uk3OKYVQcz7Y5uxX4BTcm1swpImM_JR6/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                лист Міністерства охорони здоров’я України щодо співпраці з
+                фондом
+              </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText>от 300 грн.</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/1uk3OKYVQcz7Y5uxX4BTcm1swpImM_JR6/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                завантажити
+              </PriceItemText>
             </PriceItem>
             <PriceItem>
-              <PriceItemText>Підбір спорядження</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/1eECQAd5cDV_5Ruos3aJoyqKMbsGUS8Wy/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                лист Департаменту житлово-комунальної інфраструктури виконавчого
+                органу КМР (КМДА)
+              </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText>от 200 грн.</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/1eECQAd5cDV_5Ruos3aJoyqKMbsGUS8Wy/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                завантажити
+              </PriceItemText>
             </PriceItem>
             <PriceItem>
               {" "}
-              <PriceItemText>Доставка замовлення</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/10uwnYHcJmZ2QmqsZeoPD8I9u0hoBJtlz/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                лист Бобровицької міської ради Чернігівської області
+              </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText>от 200 грн.</PriceItemText>
-            </PriceItem>
-            <PriceItem>
-              {" "}
-              <PriceItemText>Огляд екіпірування</PriceItemText>
-              <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText>от 200 грн.</PriceItemText>
+              <PriceItemText
+                href="https://drive.google.com/file/d/10uwnYHcJmZ2QmqsZeoPD8I9u0hoBJtlz/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer noopener"
+                download={true}
+              >
+                завантажити
+              </PriceItemText>
             </PriceItem>
           </ul>
         </PriceContainer>
