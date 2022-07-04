@@ -2,7 +2,7 @@ import { Container } from "components/GlobalStyles";
 import {
   PriceListSection,
   PriceListText,
-  // PriceListTitle,
+  PriceItemTextLarge,
   PriceContainer,
   PriceItem,
   PriceItemUnderLine,
@@ -31,14 +31,14 @@ export const PriceList = () => {
                 фондом
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText
+              <PriceItemTextLarge
                 href="https://drive.google.com/file/d/1uk3OKYVQcz7Y5uxX4BTcm1swpImM_JR6/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
                 download={true}
               >
                 завантажити
-              </PriceItemText>
+              </PriceItemTextLarge>
             </PriceItem>
             <PriceItem>
               <PriceItemText
@@ -51,14 +51,14 @@ export const PriceList = () => {
                 органу КМР (КМДА)
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText
+              <PriceItemTextLarge
                 href="https://drive.google.com/file/d/1eECQAd5cDV_5Ruos3aJoyqKMbsGUS8Wy/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
                 download={true}
               >
                 завантажити
-              </PriceItemText>
+              </PriceItemTextLarge>
             </PriceItem>
             <PriceItem>
               {" "}
@@ -71,14 +71,14 @@ export const PriceList = () => {
                 лист Бобровицької міської ради Чернігівської області
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
-              <PriceItemText
+              <PriceItemTextLarge
                 href="https://drive.google.com/file/d/10uwnYHcJmZ2QmqsZeoPD8I9u0hoBJtlz/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
                 download={true}
               >
                 завантажити
-              </PriceItemText>
+              </PriceItemTextLarge>
             </PriceItem>
           </ul>
         </PriceContainer>

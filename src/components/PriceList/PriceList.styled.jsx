@@ -74,6 +74,17 @@ export const PriceItemText = styled.a`
   letter-spacing: 0.02em;
 `;
 
+export const PriceItemTextLarge = styled.a`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: 0.02em;
+  }
+`;
+
 export const PriceItemUnderLine = styled.span`
   border-bottom: 1px solid rgba(157, 164, 189, 0.12);
   flex-grow: 1;
