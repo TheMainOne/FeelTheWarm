@@ -82,7 +82,7 @@ export const PriceList = () => {
             </PriceItem>
           </ul>
         </PriceContainer>
-        <PriceListButton href="https://t.me/LendLease_Ukraine">
+        <PriceListButton href="https://t.me/FeelTheWarmCharity">
           Зв'язатися з нами
         </PriceListButton>
       </Container>

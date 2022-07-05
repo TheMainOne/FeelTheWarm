@@ -43,7 +43,7 @@ export const AboutSection = () => {
               першочергових соціальних, медичних та інших нагальних потреб в
               умовах воєнного стану.
             </AboutSectionThirdText>
-            <AboutSectionButton href="https://t.me/LendLease_Ukraine">
+            <AboutSectionButton href="https://t.me/FeelTheWarmCharity">
               Зв'язатися з нами
             </AboutSectionButton>
           </div>

@@ -17,34 +17,34 @@ export const Features = () => {
       <Container>
         <FeaturesWrapper>
           <div>
-            <FeaturesText>Найкращі постачальники</FeaturesText>
-            <FeaturesTitle>Чому звертаються до нас?</FeaturesTitle>
+            <FeaturesText>Цифри</FeaturesText>
+            <FeaturesTitle>Чим ми допомагаємо?</FeaturesTitle>
             <FeaturesSecondText>
-              Про нас говорять тільки найкраще. <br />
-              Проте краще 1 раз побачити, ніж 10 разів почути.
+              Ми допомагаємо тим, хто цього найбільше потребує. <br />
+              Кожен може долучитися і внести свій вклад в добробут країни
             </FeaturesSecondText>
           </div>
           <FeaturesList>
             <FeaturesListItem>
               <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Задоволених клієнтів на день
+                Тон переданих продуктів
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>15</FeaturesListItemWrapper>
+              <FeaturesListItemText>Тон переданих ліків</FeaturesListItemText>
+            </FeaturesListItem>
+            <FeaturesListItem>
+              <FeaturesListItemWrapper>2</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Нагород за чудовий сервіс
+                автомобілі для військових
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
-              <FeaturesListItemWrapper>10</FeaturesListItemWrapper>
-              <FeaturesListItemText>Найкращих товарів</FeaturesListItemText>
-            </FeaturesListItem>
-            <FeaturesListItem>
-              <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
+              <FeaturesListItemWrapper>45</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Подарунків постійним клієнтам
+                комплектів лікарського обладнання
               </FeaturesListItemText>
             </FeaturesListItem>
           </FeaturesList>

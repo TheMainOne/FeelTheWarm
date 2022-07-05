@@ -65,7 +65,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Про нас
+                Хто ми
               </Link>
             </Typography>
           </ModalListItem>
@@ -90,7 +90,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Товари
+                Чим займаємося
               </Link>
             </Typography>
           </ModalListItem>
@@ -120,8 +120,8 @@ export const ModalWindow = ({ open, handleClose }) => {
             </Typography>
           </ModalListItem>
         </ModalList>
-        <ModalPhone href="tel:+380963441810">+38 096 344 18 10</ModalPhone>
-        <ModalLinkButton href="https://t.me/LendLease_Ukraine">
+        <ModalPhone href="tel:+380970031414">+38 097 003 14 14</ModalPhone>
+        <ModalLinkButton href="https://t.me/FeelTheWarmCharity">
           Зв'язатися з нами
         </ModalLinkButton>
       </Box>

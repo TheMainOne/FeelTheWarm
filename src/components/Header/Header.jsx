@@ -77,8 +77,8 @@ export const SiteHeader = () => {
               </NavigationLargeList>
             </nav>
             <NavigationContactsWrapper>
-              <NavigationContactsButton href="https://t.me/LendLease_Ukraine">
-                Зв'язатися з нами
+              <NavigationContactsButton href="https://t.me/FeelTheWarmCharity">
+                Написати нам
               </NavigationContactsButton>
               <NavigationContactsLink href="tel:+380970031414">
                 +38 097 003 14 14

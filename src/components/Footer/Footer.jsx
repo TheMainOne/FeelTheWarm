@@ -36,10 +36,10 @@ export const Footer = () => {
                   </FooterContactsListLink>
                 </FooterContactsListItem> */}
                 <FooterContactsListItem>
-                  <FooterContactsListLink href="tel:+380963441810">
+                  <FooterContactsListLink href="tel:+380970031414">
                     <LocalPhoneSharpIcon />
                     <FooterContactsListText>
-                      +38 096 344 18 10
+                      +38 097 003 14 14
                     </FooterContactsListText>
                   </FooterContactsListLink>
                 </FooterContactsListItem>
@@ -47,7 +47,7 @@ export const Footer = () => {
                   <FooterContactsListLink href="mailto:sales@lend-lease.com.ua">
                     <EmailOutlinedIcon />
                     <FooterContactsListText>
-                      sales@lend-lease.com.ua
+                      Feel.the.warm.ua@gmail.com
                     </FooterContactsListText>
                   </FooterContactsListLink>
                 </FooterContactsListItem>
@@ -56,7 +56,7 @@ export const Footer = () => {
           </div>
           <div>
             <FooterSecondTitle>Час работи</FooterSecondTitle>
-            <FooterSecondText>Кожен день з 9:00 до 22:00</FooterSecondText>
+            <FooterSecondText>Кожен день з 10:00 до 20:00</FooterSecondText>
           </div>
         </FooterWrapper>
       </Container>

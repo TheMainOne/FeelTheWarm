@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../images/contacts/footer.jpg";
+import img from "../../images/contacts/footer1.jpg";
 
 export const FooterSection = styled.footer`
   padding-top: 84px;
@@ -10,6 +10,7 @@ export const FooterSection = styled.footer`
     ),
     url(${img});
   background-position: center;
+  background-size: cover;
   background-color: #191c26;
 
   @media screen and (min-width: 768px) {
