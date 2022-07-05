@@ -1,12 +1,11 @@
 import { Container } from "components/GlobalStyles";
 import { Goods, GoodsText } from "./Goods.styled";
 import {
-  AboutSectionText,
   AboutSectionSecondText,
-  AboutSectionThirdText,
   AboutSectionButton,
   AboutSectionWrapper,
 } from "components/About/About.styled";
+import { AboutSectionThirdText } from "./Goods.styled";
 
 export const GoodsSection = () => {
   return (
@@ -16,19 +15,17 @@ export const GoodsSection = () => {
         <AboutSectionWrapper>
           <div>
             <AboutSectionSecondText>
-              Важливим аспектом діяльності нашого фонду є офіційна співпраця з
-              Міністерством охорони здоров’я України та іншими державними
-              органами та органами місцевого самоврядування.
+              Кожен може долучитися до допомоги нашим військовим чи цивільному
+              населенню шляхом перерахунку коштів на благодійний рахунок
+              Благодійної організації «Благодійний фонд «Відчуй тепло» за
+              наступними реквізитами: р/р (IBAN) UA793204780000026005924919779;
             </AboutSectionSecondText>
             <AboutSectionThirdText>
-              У тісній співпраці з вищевказаними органами, «Благодійний фонд
-              «Відчуй тепло» допомагає цивільному населенню, Збройним силам
-              України та силам територіальної оборони громад у забезпеченні
-              першочергових соціальних, медичних та інших нагальних потреб в
-              умовах воєнного стану.
+              Також ти можешь стати волонтером та допомагати фонду у його
+              повсякденній діяльності разом з нашою чудовою командою патріотів.
             </AboutSectionThirdText>
             <AboutSectionButton href="https://t.me/FeelTheWarmCharity">
-              Зв'язатися з нами
+              Хочу допомогти
             </AboutSectionButton>
           </div>
         </AboutSectionWrapper>

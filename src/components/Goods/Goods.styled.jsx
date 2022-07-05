@@ -16,6 +16,20 @@ export const Goods = styled.section`
   }
 `;
 
+export const AboutSectionThirdText = styled.p`
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: #555555;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+`;
+
 export const GoodsWrapper = styled.li`
   transition: transform 250ms linear;
   ${
