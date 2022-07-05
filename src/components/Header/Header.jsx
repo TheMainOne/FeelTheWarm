@@ -59,7 +59,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Чим займаємося
+                    Як допомогти
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>

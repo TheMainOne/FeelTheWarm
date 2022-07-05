@@ -90,7 +90,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Чим займаємося
+                Як допомогти
               </Link>
             </Typography>
           </ModalListItem>
