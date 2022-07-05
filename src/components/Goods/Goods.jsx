@@ -10,7 +10,7 @@ import { AboutSectionThirdText } from "./Goods.styled";
 export const GoodsSection = () => {
   return (
     <Goods>
-      <Container>
+      <Container name="goods">
         <GoodsText>Як можна нам допомогти?</GoodsText>
         <AboutSectionWrapper>
           <div>
