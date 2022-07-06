@@ -44,7 +44,7 @@ export const Footer = () => {
                   </FooterContactsListLink>
                 </FooterContactsListItem>
                 <FooterContactsListItem>
-                  <FooterContactsListLink href="mailto:sales@lend-lease.com.ua">
+                  <FooterContactsListLink href="mailto:Feel.the.warm.ua@gmail.com">
                     <EmailOutlinedIcon />
                     <FooterContactsListText>
                       Feel.the.warm.ua@gmail.com
