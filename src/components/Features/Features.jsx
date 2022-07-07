@@ -38,7 +38,7 @@ export const Features = () => {
             <FeaturesListItem>
               <FeaturesListItemWrapper>3</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                авт. швидкої передано для лікарень
+                швидкі передано для лікарень
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
