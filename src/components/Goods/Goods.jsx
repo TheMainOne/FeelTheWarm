@@ -11,7 +11,7 @@ export const GoodsSection = () => {
   return (
     <Goods>
       <Container name="goods">
-        <GoodsText>Як можна нам допомогти?</GoodsText>
+        <GoodsText>Як можна долучитися до допомоги?</GoodsText>
         <AboutSectionWrapper>
           <div>
             <AboutSectionSecondText>

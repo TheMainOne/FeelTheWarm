@@ -28,17 +28,17 @@ export const Features = () => {
             <FeaturesListItem>
               <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                Тон переданих продуктів
+                тон переданих продуктів
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>15</FeaturesListItemWrapper>
-              <FeaturesListItemText>Тон переданих ліків</FeaturesListItemText>
+              <FeaturesListItemText>тон переданих ліків</FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
-              <FeaturesListItemWrapper>2</FeaturesListItemWrapper>
+              <FeaturesListItemWrapper>3</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                автомобілі для військових
+                авт. швидкої передано для лікарень
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
