@@ -5,5 +5,14 @@
   "ContactUs": "Write to us",
   "Charity": "Charitable foundation",
   "FoundName": "Feel the warm",
-  "HeaderTitle": "Association of caring people who joined their efforts to help Ukraine"
+  "HeaderTitle": "Association of caring people who joined their efforts to help Ukraine",
+  "AboutTitle": "Association of people that helps for all who need it",
+  "AboutText": "An important aspect of our foundation's activity is official cooperation with the Ministry of Health of Ukraine and other state and local government organisations.",
+  "AboutSecondText": "In close cooperation with the above-mentioned organisations, our charitable foundation helps the civilian population, the Armed Forces of Ukraine and the Territorial Defense Forces of communities in providing priority social, medical and other urgent needs in conditions of martial law.",
+  "ContactUsButton": "Contact us",
+  "PriceListTitle": "Cooperation with government agency",
+  "PriceListFirstItem": "letter from the Ministry of Health of Ukraine regarding cooperation with the foundation",
+  "PriceListSecondItem": "letter from the Department of Housing and Communal Infrastructure of the Kyiv state administration",
+  "PriceListThirdItem": "letter from Bobrovytsia City Council of Chernihiv Region",
+  "PriceListDownload": "download"
 }

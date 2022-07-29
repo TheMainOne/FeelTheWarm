@@ -9,12 +9,15 @@ import {
   PriceItemText,
   PriceListButton,
 } from "./PriceList.styled";
+import { useTranslation } from 'react-i18next';
 
 export const PriceList = () => {
+  const { t } = useTranslation();
+
   return (
     <PriceListSection>
       <Container>
-        <PriceListText>Співпраця з органами державної влади</PriceListText>
+        <PriceListText>{t('PriceListTitle')}</PriceListText>
         {/* <PriceListTitle>
           Фонд у своїй діяльності співпрацює з різними державними інстанціями
         </PriceListTitle> */}
@@ -27,8 +30,7 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                лист Міністерства охорони здоров’я України щодо співпраці з
-                фондом
+                {t('PriceListFirstItem')}
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
               <PriceItemTextLarge
@@ -37,7 +39,7 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                завантажити
+                {t('PriceListDownload')}
               </PriceItemTextLarge>
             </PriceItem>
             <PriceItem>
@@ -47,8 +49,7 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                лист Департаменту житлово-комунальної інфраструктури виконавчого
-                органу КМР (КМДА)
+                {t('PriceListSecondItem')}
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
               <PriceItemTextLarge
@@ -57,7 +58,7 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                завантажити
+               {t('PriceListDownload')}
               </PriceItemTextLarge>
             </PriceItem>
             <PriceItem>
@@ -68,7 +69,7 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                лист Бобровицької міської ради Чернігівської області
+                {t('PriceListThirdItem')}
               </PriceItemText>
               <PriceItemUnderLine></PriceItemUnderLine>
               <PriceItemTextLarge
@@ -77,13 +78,13 @@ export const PriceList = () => {
                 rel="noreferrer noopener"
                 download={true}
               >
-                завантажити
+                {t('PriceListDownload')}
               </PriceItemTextLarge>
             </PriceItem>
           </ul>
         </PriceContainer>
         <PriceListButton href="https://t.me/FeelTheWarmCharity">
-          Зв'язатися з нами
+        {t('ContactUsButton')} 
         </PriceListButton>
       </Container>
     </PriceListSection>

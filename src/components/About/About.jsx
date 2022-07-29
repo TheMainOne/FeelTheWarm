@@ -11,9 +11,12 @@ import {
   AboutSectionWrapper,
 } from "./About.styled";
 import img1 from "../../images/about_us/img7.jpg";
+import { useTranslation } from 'react-i18next';
 // import img2 from "../../images/about_us/img.jpg";
 
 export const AboutSection = () => {
+  const { t } = useTranslation();
+
   return (
     <AboutSectionStyled>
       <Container name="aboutUs">
@@ -27,24 +30,18 @@ export const AboutSection = () => {
             </AboutSectionImageItem>
           </AboutSectionImageList>
           <div>
-            <AboutSectionTitle>Хто ми</AboutSectionTitle>
+            <AboutSectionTitle>{t('WhoWeAre')}</AboutSectionTitle>
             <AboutSectionText>
-              Об'єднання людей, яке допомагає тим, хто цього потребує
+              {t('AboutTitle')}
             </AboutSectionText>
             <AboutSectionSecondText>
-              Важливим аспектом діяльності нашого фонду є офіційна співпраця з
-              Міністерством охорони здоров’я України та іншими державними
-              органами та органами місцевого самоврядування.
+              {t('AboutText')}
             </AboutSectionSecondText>
             <AboutSectionThirdText>
-              У тісній співпраці з вищевказаними органами, «Благодійний фонд
-              «Відчуй тепло» допомагає цивільному населенню, Збройним силам
-              України та силам територіальної оборони громад у забезпеченні
-              першочергових соціальних, медичних та інших нагальних потреб в
-              умовах воєнного стану.
+              {t('AboutSecondText')}
             </AboutSectionThirdText>
             <AboutSectionButton href="https://t.me/FeelTheWarmCharity">
-              Зв'язатися з нами
+             {t('ContactUsButton')} 
             </AboutSectionButton>
           </div>
         </AboutSectionWrapper>
