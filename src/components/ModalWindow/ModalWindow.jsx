@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Box from "@mui/material/Box";
 import CloseIcon from "@mui/icons-material/Close";
 import Typography from "@mui/material/Typography";
@@ -10,9 +11,27 @@ import {
   ModalLinkButton,
 } from "./ModalWindow.styled";
 import { useTranslation } from 'react-i18next';
+import Switch from '@mui/material/Switch';
+import i18next from "i18next";
 
-export const ModalWindow = ({ open, handleClose }) => {
+
+
+export const ModalWindow = ({ open, handleClose, language, handleLanguage }) => {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    if(language === false) {
+      i18next
+      .changeLanguage('ua')
+      document.title = `Відчуй тепло || Благодійний фонд`;
+    } else {
+      i18next
+      .changeLanguage('en')
+      document.title = `Feel the warm || Charity foundation`;
+    }
+
+  }, [language]);
+
 
   return (
     <Modal
@@ -122,11 +141,19 @@ export const ModalWindow = ({ open, handleClose }) => {
               </Link>
             </Typography>
           </ModalListItem>
+          <ModalListItem>
+          <p>UA</p>
+          {language && <Switch color="default" defaultChecked onClick={handleLanguage}/>}
+          {!language && <Switch color="default" onClick={handleLanguage}/>}
+          <p>EN</p>
+          </ModalListItem>
         </ModalList>
         <ModalPhone href="tel:+380970031414">+38 097 003 14 14</ModalPhone>
         <ModalLinkButton href="https://t.me/FeelTheWarmCharity">
           {t('ContactUsButton')}
         </ModalLinkButton>
+
+
       </Box>
     </Modal>
   );

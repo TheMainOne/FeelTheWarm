@@ -9,6 +9,13 @@ export const ModalListItem = styled.li`
   &:not(:last-of-type) {
     margin-bottom: 24px;
   }
+
+
+  &:last-of-type {
+    display: flex;
+    align-items: center;
+  }
+
 `;
 
 export const ModalPhone = styled.a`

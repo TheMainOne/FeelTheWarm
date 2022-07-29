@@ -24,6 +24,8 @@ import { useTranslation } from 'react-i18next';
 export const SiteHeader = () => {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [language, setLanguage] = useState(false);
+  const handleLanguage = () => setLanguage(!language);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -98,7 +100,7 @@ export const SiteHeader = () => {
               задля допомоги Україні */}
             </HeaderText>
           </NavigationTitleInformation>
-          <ModalWindow open={open} handleClose={handleClose} />
+          <ModalWindow open={open} handleClose={handleClose} language={language} handleLanguage={handleLanguage}/>
         </Container>
       </Header>
     </>
