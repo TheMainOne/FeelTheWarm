@@ -19,7 +19,9 @@ import {
   NavigationContactsLink,
   NavigationTitleInformation,
   HeaderText,
-  LanguageSwitchWrapper
+  LanguageSwitchWrapperForTablet,
+  LanguageSwitchWrapperForDesktop,
+  LanguageSwitchWrapperForLargeDesktop
 } from "./Header.styled";
 import { useTranslation } from 'react-i18next';
 
@@ -34,7 +36,8 @@ export const SiteHeader = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const tabletWidth = width > 767 && width < 1024;
-  const desktopWidth = width > 1023;
+  const desktopWidth = width > 1023 && width < 1440;
+  const largeDesktopWidth = width > 1439;
 
 
   return (
@@ -97,12 +100,24 @@ export const SiteHeader = () => {
               <NavigationContactsLink href="tel:+380970031414">
                 +38 097 003 14 14
               </NavigationContactsLink>
-              {tabletWidth && <LanguageSwitchWrapper>
+              {tabletWidth && <LanguageSwitchWrapperForTablet>
                 <p>UA</p>
           {language && <Switch color="default" defaultChecked onClick={handleLanguage}/>}
           {!language && <Switch color="default" onClick={handleLanguage}/>}
           <p>EN</p>
-              </LanguageSwitchWrapper>}
+              </LanguageSwitchWrapperForTablet>}
+              {desktopWidth && <LanguageSwitchWrapperForDesktop>
+                <p>UA</p>
+          {language && <Switch color="default" defaultChecked onClick={handleLanguage}/>}
+          {!language && <Switch color="default" onClick={handleLanguage}/>}
+          <p>EN</p>
+              </LanguageSwitchWrapperForDesktop>}
+              {largeDesktopWidth && <LanguageSwitchWrapperForLargeDesktop>
+                <p>UA</p>
+          {language && <Switch color="default" defaultChecked onClick={handleLanguage}/>}
+          {!language && <Switch color="default" onClick={handleLanguage}/>}
+          <p>EN</p>
+              </LanguageSwitchWrapperForLargeDesktop>}
             </NavigationContactsWrapper>
           </NavigationWrapper>
           <NavigationTitleInformation>

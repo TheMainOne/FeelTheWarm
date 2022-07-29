@@ -44,10 +44,27 @@ export const NavigationWrapper = styled.div`
   }
 `;
 
-export const LanguageSwitchWrapper = styled.div`
+export const LanguageSwitchWrapperForTablet = styled.div`
     display: flex;
     align-items: center;
     margin-top: 10px;
+`;
+
+export const LanguageSwitchWrapperForDesktop = styled.div`
+position: absolute;
+top: 55px;
+right: 28px;
+    display: flex;
+    align-items: center;
+
+`;
+
+export const LanguageSwitchWrapperForLargeDesktop = styled.div`
+display: flex;
+align-items: center;
+position: absolute;
+top: 3px;
+right: -130px;
 `;
 
 export const NavigationLargeList = styled.ul`
@@ -76,6 +93,7 @@ export const NavigationLargeListItem = styled.li`
 `;
 
 export const NavigationContactsWrapper = styled.div`
+position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
