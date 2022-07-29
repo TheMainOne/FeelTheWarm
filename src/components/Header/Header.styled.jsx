@@ -44,6 +44,12 @@ export const NavigationWrapper = styled.div`
   }
 `;
 
+export const LanguageSwitchWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+`;
+
 export const NavigationLargeList = styled.ul`
   display: flex;
 `;

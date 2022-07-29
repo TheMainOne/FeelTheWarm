@@ -1,4 +1,6 @@
 import MenuIcon from "@mui/icons-material/Menu";
+import useResizeAware from 'react-resize-aware';
+import Switch from '@mui/material/Switch';
 import StarBorderRoundedIcon from "@mui/icons-material/StarBorderRounded";
 import { useState } from "react";
 import { ModalWindow } from "components/ModalWindow/ModalWindow";
@@ -17,21 +19,28 @@ import {
   NavigationContactsLink,
   NavigationTitleInformation,
   HeaderText,
+  LanguageSwitchWrapper
 } from "./Header.styled";
 import { useTranslation } from 'react-i18next';
 
 
+
 export const SiteHeader = () => {
+  const [resizeListener, { width }] = useResizeAware();
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [language, setLanguage] = useState(false);
   const handleLanguage = () => setLanguage(!language);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const tabletWidth = width > 767 && width < 1024;
+  const desktopWidth = width > 1023;
+
 
   return (
     <>
       <Header>
+        {resizeListener}
         <Container>
           <Navigation>
             <StarBorderRoundedIcon
@@ -88,6 +97,12 @@ export const SiteHeader = () => {
               <NavigationContactsLink href="tel:+380970031414">
                 +38 097 003 14 14
               </NavigationContactsLink>
+              {tabletWidth && <LanguageSwitchWrapper>
+                <p>UA</p>
+          {language && <Switch color="default" defaultChecked onClick={handleLanguage}/>}
+          {!language && <Switch color="default" onClick={handleLanguage}/>}
+          <p>EN</p>
+              </LanguageSwitchWrapper>}
             </NavigationContactsWrapper>
           </NavigationWrapper>
           <NavigationTitleInformation>
@@ -95,9 +110,6 @@ export const SiteHeader = () => {
             <CompanyName>{t("FoundName")}</CompanyName>
             <HeaderText>
               {t('HeaderTitle')}
-              {/* Об'єднання небайдужих людей,
-              <br /> які поєднали свої зусилля <br />
-              задля допомоги Україні */}
             </HeaderText>
           </NavigationTitleInformation>
           <ModalWindow open={open} handleClose={handleClose} language={language} handleLanguage={handleLanguage}/>
