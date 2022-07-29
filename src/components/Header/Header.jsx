@@ -18,8 +18,11 @@ import {
   NavigationTitleInformation,
   HeaderText,
 } from "./Header.styled";
+import { useTranslation } from 'react-i18next';
+
 
 export const SiteHeader = () => {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -47,7 +50,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Хто ми
+                   {t('WhoWeAre')} 
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -59,7 +62,7 @@ export const SiteHeader = () => {
                     offset={-70}
                     duration={500}
                   >
-                    Як допомогти
+                    {t('HowToHelp')}
                   </Link>
                 </NavigationLargeListItem>
                 <NavigationLargeListItem>
@@ -71,14 +74,14 @@ export const SiteHeader = () => {
                     offset={-30}
                     duration={500}
                   >
-                    Як нас знайти
+                    {t('HowToFindUs')}
                   </Link>
                 </NavigationLargeListItem>
               </NavigationLargeList>
             </nav>
             <NavigationContactsWrapper>
               <NavigationContactsButton href="https://t.me/FeelTheWarmCharity">
-                Написати нам
+                {t("ContactUs")}
               </NavigationContactsButton>
               <NavigationContactsLink href="tel:+380970031414">
                 +38 097 003 14 14
@@ -86,12 +89,13 @@ export const SiteHeader = () => {
             </NavigationContactsWrapper>
           </NavigationWrapper>
           <NavigationTitleInformation>
-            <HeaderTitle>Благодійний фонд</HeaderTitle>
-            <CompanyName>"Відчуй тепло"</CompanyName>
+            <HeaderTitle>{t('Charity')}</HeaderTitle>
+            <CompanyName>{t("FoundName")}</CompanyName>
             <HeaderText>
-              Об'єднання небайдужих людей,
+              {t('HeaderTitle')}
+              {/* Об'єднання небайдужих людей,
               <br /> які поєднали свої зусилля <br />
-              задля допомоги Україні
+              задля допомоги Україні */}
             </HeaderText>
           </NavigationTitleInformation>
           <ModalWindow open={open} handleClose={handleClose} />
