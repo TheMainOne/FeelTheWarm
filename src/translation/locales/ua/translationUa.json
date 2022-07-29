@@ -14,5 +14,20 @@
   "PriceListFirstItem": "letter from the Ministry of Health of Ukraine regarding cooperation with the foundation",
   "PriceListSecondItem": "letter from the Department of Housing and Communal Infrastructure of the Kyiv state administration",
   "PriceListThirdItem": "letter from Bobrovytsia City Council of Chernihiv Region",
-  "PriceListDownload": "download"
+  "PriceListDownload": "download",
+  "FeaturesTitle": "Numbers",
+  "FeaturesText": "How do we help?",
+  "FeaturesSecondText": "We help those who need it most. Everyone can join and contribute to the well-being of the country",
+  "FeaturesfirstItem": "tons of transferred products",
+  "FeaturesSecondItem": "tons of transferred medicines",
+  "FeaturesThirdItem": "ambulance transferred to hospitals",
+  "FeaturesFourthItem": "sets of medical equipment",
+  "GoodsTitle": "How can I get involved to help?",
+  "GoodsText": "Everyone can contribute to helping our military or civilian population by transferring funds to the charity account of the charity organization using the following bank account: (IBAN) UA793204780000026005924919779;",
+  "GoodsSecondText": "You can also become a volunteer and help the foundation in its day-to-day activities with our wonderful crew of patriots.",
+  "GoodsThirdText": "I want to help",
+  "FooterTitle": "Contacts",
+  "FooterHoursOfWork": "Work hours",
+  "FooterHoursOfWorkInfo": "Every day from 10:00 am to 08:00 pm"
+
 }

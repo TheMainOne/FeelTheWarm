@@ -10,41 +10,43 @@ import {
   FeaturesListItemText,
   FeaturesWrapper,
 } from "./Features.styled";
+import { useTranslation } from 'react-i18next';
 
 export const Features = () => {
+  const { t } = useTranslation();
+
   return (
     <FeaturesSection>
       <Container>
         <FeaturesWrapper>
           <div>
-            <FeaturesText>Цифри</FeaturesText>
-            <FeaturesTitle>Чим ми допомагаємо?</FeaturesTitle>
+            <FeaturesText>{t('FeaturesTitle')}</FeaturesText>
+            <FeaturesTitle>{t('FeaturesText')}</FeaturesTitle>
             <FeaturesSecondText>
-              Ми допомагаємо тим, хто цього найбільше потребує. <br />
-              Кожен може долучитися і внести свій вклад в добробут країни
+             {t('FeaturesSecondText')}
             </FeaturesSecondText>
           </div>
           <FeaturesList>
             <FeaturesListItem>
               <FeaturesListItemWrapper>100</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                тон переданих продуктів
+                {t('FeaturesfirstItem')}
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>15</FeaturesListItemWrapper>
-              <FeaturesListItemText>тон переданих ліків</FeaturesListItemText>
+              <FeaturesListItemText>{t('FeaturesSecondItem')}</FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>3</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                швидкі передано для лікарень
+                {t('FeaturesThirdItem')}
               </FeaturesListItemText>
             </FeaturesListItem>
             <FeaturesListItem>
               <FeaturesListItemWrapper>45</FeaturesListItemWrapper>
               <FeaturesListItemText>
-                комплектів лікарського обладнання
+                {t('FeaturesFourthItem')}
               </FeaturesListItemText>
             </FeaturesListItem>
           </FeaturesList>

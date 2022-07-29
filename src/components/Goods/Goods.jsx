@@ -6,26 +6,25 @@ import {
   AboutSectionWrapper,
 } from "components/About/About.styled";
 import { AboutSectionThirdText } from "./Goods.styled";
+import { useTranslation } from 'react-i18next';
 
 export const GoodsSection = () => {
+  const { t } = useTranslation();
+
   return (
     <Goods>
       <Container name="goods">
-        <GoodsText>Як можна долучитися до допомоги?</GoodsText>
+        <GoodsText>{t('GoodsTitle')}</GoodsText>
         <AboutSectionWrapper>
           <div>
             <AboutSectionSecondText>
-              Кожен може долучитися до допомоги нашим військовим чи цивільному
-              населенню шляхом перерахунку коштів на благодійний рахунок
-              Благодійної організації «Благодійний фонд «Відчуй тепло» за
-              наступними реквізитами: р/р (IBAN) UA793204780000026005924919779;
+              {t('GoodsText')}
             </AboutSectionSecondText>
             <AboutSectionThirdText>
-              Також ти можешь стати волонтером та допомагати фонду у його
-              повсякденній діяльності разом з нашою чудовою командою патріотів.
+             {t('GoodsSecondText')}
             </AboutSectionThirdText>
             <AboutSectionButton href="https://t.me/FeelTheWarmCharity">
-              Хочу допомогти
+              {t('GoodsThirdText')}
             </AboutSectionButton>
           </div>
         </AboutSectionWrapper>

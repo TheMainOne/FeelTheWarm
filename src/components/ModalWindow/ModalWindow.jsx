@@ -9,8 +9,11 @@ import {
   ModalPhone,
   ModalLinkButton,
 } from "./ModalWindow.styled";
+import { useTranslation } from 'react-i18next';
 
 export const ModalWindow = ({ open, handleClose }) => {
+  const { t } = useTranslation();
+
   return (
     <Modal
       open={open}
@@ -65,7 +68,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Хто ми
+                {t('WhoWeAre')}
               </Link>
             </Typography>
           </ModalListItem>
@@ -90,7 +93,7 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Як допомогти
+                {t('HowToHelp')}
               </Link>
             </Typography>
           </ModalListItem>
@@ -115,14 +118,14 @@ export const ModalWindow = ({ open, handleClose }) => {
                 duration={500}
                 onClick={handleClose}
               >
-                Контакти
+                {t('HowToFindUs')}
               </Link>
             </Typography>
           </ModalListItem>
         </ModalList>
         <ModalPhone href="tel:+380970031414">+38 097 003 14 14</ModalPhone>
         <ModalLinkButton href="https://t.me/FeelTheWarmCharity">
-          Зв'язатися з нами
+          {t('ContactUsButton')}
         </ModalLinkButton>
       </Box>
     </Modal>

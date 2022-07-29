@@ -13,14 +13,17 @@ import {
 // import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import LocalPhoneSharpIcon from "@mui/icons-material/LocalPhoneSharp";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <FooterSection>
       <Container>
         <FooterWrapper>
           <div>
-            <FooterTitle name="footer">Контакти</FooterTitle>
+            <FooterTitle name="footer">{t('FooterTitle')}</FooterTitle>
             <div>
               <FooterContactsList>
                 {/* <FooterContactsListItem>
@@ -55,8 +58,8 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            <FooterSecondTitle>Час работи</FooterSecondTitle>
-            <FooterSecondText>Кожен день з 10:00 до 20:00</FooterSecondText>
+            <FooterSecondTitle>{t('FooterHoursOfWork')}</FooterSecondTitle>
+            <FooterSecondText>{t('FooterHoursOfWorkInfo')}</FooterSecondText>
           </div>
         </FooterWrapper>
       </Container>
